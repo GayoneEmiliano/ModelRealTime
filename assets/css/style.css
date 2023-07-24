@@ -15,7 +15,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background: #424243;
+  background: #121212;
   color: #444444;
 }
 
@@ -86,13 +86,13 @@ h6 {
 
 .back-to-top i {
   font-size: 24px;
-  color: #2A2A32;
+  color: #121212;
   line-height: 0;
 }
 
 .back-to-top:hover {
   background: #6776f4;
-  color: #2A2A32;
+  color: #121212;
 }
 
 .back-to-top.active {
@@ -148,7 +148,7 @@ h6 {
 }
 
 .dropdown-menu .dropdown-item:hover {
-  background-color: #2A2A32;
+  background-color: #121212;
 }
 
 @media (min-width: 768px) {
@@ -156,7 +156,7 @@ h6 {
     content: "";
     width: 13px;
     height: 13px;
-    background: #2A2A32;
+    background: #121212;
     position: absolute;
     top: -7px;
     right: 20px;
@@ -222,13 +222,13 @@ h6 {
   border: none;
   border-radius: 5px;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
-  background-color: #737373;
+  background-color: #282828;
 }
 
 .card-header,
 .card-footer {
-  border-color: #2A2A32;
-  background-color: #2A2A32;
+  border-color: #121212;
+  background-color: #121212;
   color: #798eb3;
   padding: 15px;
 }
@@ -382,7 +382,7 @@ h6 {
   z-index: 997;
   height: 60px;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
-  background-color: #2A2A32;
+  background-color: #121212;
   padding-left: 20px;
   /* Toggle Sidebar Button */
   /* Search Bar */
@@ -611,7 +611,7 @@ h6 {
   scrollbar-width: thin;
   scrollbar-color: #aab7cf transparent;
   box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
-  background-color: #2A2A32;
+  background-color: #282828;
 }
 
 @media (max-width: 1199px) {
@@ -623,7 +623,7 @@ h6 {
 .sidebar::-webkit-scrollbar {
   width: 5px;
   height: 8px;
-  background-color: #2A2A32;
+  background-color: #121212;
 }
 
 .sidebar::-webkit-scrollbar-thumb {
@@ -687,7 +687,7 @@ h6 {
   font-weight: 600;
   color: #b2cb3b;
   transition: 0.3;
-  background: #2A2A32;
+  /*background: #121212;*/
   padding: 10px 15px;
   border-radius: 4px;
 }
@@ -700,7 +700,7 @@ h6 {
 
 .sidebar-nav .nav-link.collapsed {
   color: #b2cb3b;
-  background: #2A2A32;
+  /* background: #121212; */
 }
 
 .sidebar-nav .nav-link.collapsed i {
@@ -1234,5 +1234,5 @@ h6 {
 }
 
 .tableCelda{
-  background-color: #737373 !important;
+  background-color: #282828 !important;
 }
